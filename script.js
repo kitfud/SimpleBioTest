@@ -9,6 +9,10 @@ function mouseUp() {
   document.getElementById("mainImage").src = "images/KitProfilePic.jpg";
 }
 
+function myAlert(){
+  alert("this is a test alert")
+}
+
 $(document).ready(function() {
 $('h2').hover(
     function() {
